@@ -1,0 +1,17 @@
+
+##request file names
+userinput = input("Enter an input file name>> ")
+useroutput = input("Enter an output file name>> ")
+
+
+i = open(userinput, "r")
+text = i.readlines()
+
+##copy text into outputfile
+op = open(useroutput,'w')
+
+for i in range(0, len(text)):
+
+    op.write(str(i+1).rjust(4) + "> " + text[i] + '\n')
+    
+op.close()
