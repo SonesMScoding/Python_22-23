@@ -67,7 +67,7 @@ def main():
         if sentence.upper() == "QUIT":
             print("Have a nice day!")
             break
-        print(doctor.reply(sentence))
+        print(Doctor.reply(sentence))
 
 # The entry point for program execution
 if __name__ == "__main__":
