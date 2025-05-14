@@ -1,6 +1,5 @@
 """
 Program: investment.py
-Author: Ken
 
 Compute an investment report.
 
